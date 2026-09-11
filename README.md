@@ -1,16 +1,57 @@
-# React + Vite
+# 📝 React Todo List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Todo List application built with React** to practice component-based development and state management.
 
-Currently, two official plugins are available:
+This is the **final version (Version 2)** of my Todo List project, where I added functionality to add and delete tasks using React's `useState` Hook.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **Live Demo:** [https://react-to-do-list-app-dhhn.vercel.app]
+🔗 **Source Code:** [https://github.com/Mohd-Faisal-11/React-To-do-List-App.git]
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- ➕ Add new Todo items
+- 🗑️ Delete Todo items
+- ⚛️ State management using `useState`
+- 🔄 Dynamic UI updates
+- 🧩 Reusable React components
+- 🎨 CSS Modules for component-specific styling
+- 📱 Clean and simple user interface
+
+---
+
+## 🛠️ Technologies Used
+
+- **React.js**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+- **CSS Modules**
+- **Vite**
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── AddTodo.jsx
+│   ├── AddTodo.module.css
+│   ├── AppName.jsx
+│   ├── AppName.module.css
+│   ├── To-do-Item-data.module.css
+│   ├── Todo-item.jsx
+│   ├── Todo-Items-data.jsx
+│   └── welcomeMessage.jsx
+│
+├── App.css
+├── App.jsx
+└── main.jsx
+
+Developed by MOHD FAISAl.
